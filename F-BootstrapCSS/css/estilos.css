@@ -1,0 +1,128 @@
+.Music-body {
+  background: #830707;
+  width: 90%;
+  height: 100%;
+  margin: auto;
+}
+
+.container-fluid {
+  margin-top: 10px;
+}
+
+.post-content{
+  	background:white;
+  	min-height: 120px;
+}
+
+.caja{
+	border-right: 1px solid #D8D8D8;
+	min-height: 100px;
+}
+
+.post-text{
+	font-family: helvetica;
+	text-align: justify;
+	font-size: 16px;
+	color: black;
+}
+
+.text-title{
+	color: black;
+}
+
+.text-area{
+	margin-top: 5%;
+}
+
+.albun-img{
+	width: 100%;
+	margin-top: 5%;
+	border: 1px solid #D9D9D9;
+}
+
+.user{
+	width: 32px;
+}
+
+.box-buscar{
+	padding: 4%;
+	margin: 4%;
+	background-color: #F0F0F0;
+}
+
+.nav-color{
+	background-color: #FFD087;
+	height: 20px;
+	text-align: center;
+	vertical-align: center;
+}
+
+.logo-flex{
+	display: block;
+	margin-left: 10%;
+	height: 100px;
+}
+
+.nav-color:hover{
+	background-color: #F0F0F0;
+}
+
+a:hover{
+	boeder: 1px solid red;
+}
+
+.redes-sociales{
+	margin-top: 10%;
+	width: 32px;
+}
+
+.music-focus:hover{
+	padding-top: 5%;
+	background-color: #FFD087;
+}
+
+.busqueda{
+	width: 16px;
+}
+
+.music-focus{
+	padding-top: 5%;
+	border-top: 1px solid #D8D8D8;
+}
+
+.posicion{
+	margin-left: 78%;
+}
+
+@media (max-width: 700px) {
+	
+	.logo{
+		height: 100px;
+		margin-left: 30%;
+		margin-top: 5%;
+	}
+
+	.albun-img{
+		display: block;
+		margin: auto;
+		margin-top: 5%;
+		width: 290px;
+		border: 1px solid #D9D9D9;
+	}
+
+	.logo-flex{
+		display: block;
+		margin: auto;
+		margin-top: 5%;
+	}
+
+	.posicion{
+		margin-left: 33%;
+	}
+
+	.redes-sociales{
+		margin-top: 3%;
+		margin-bottom: 3%;
+	}
+	
+}
